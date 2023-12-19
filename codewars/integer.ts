@@ -1,4 +1,4 @@
-function isSquare(n: number): boolean {
+export function isSquare(n: number): boolean {
 
     if (n >= 0) {
         
@@ -9,7 +9,6 @@ function isSquare(n: number): boolean {
         return false; 
     }
 }
-
 console.log(isSquare(-1));  // Output: false
 console.log(isSquare(0));   // Output: true
 console.log(isSquare(3));   // Output: false
